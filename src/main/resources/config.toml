@@ -1,0 +1,7 @@
+[sap]
+rec_base="https://trade.vehicle.kamaz.org/opu/odata/"
+serviceRoot = "https://trade.vehicle.kamaz.org/sap/opu/odata/sap/yrecord"
+recUrl = "yrecord"
+username = "USERNAME"
+password = "changeit"
+entity = "infosatzSet"

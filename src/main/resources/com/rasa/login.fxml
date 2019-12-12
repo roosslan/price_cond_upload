@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<StackPane xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.rasa.fxLoginController">
+   <GridPane alignment="center" hgap="10" vgap="10">
+      <Button mnemonicParsing="false" onAction="#onLoginBtnClick" text="Login" GridPane.columnIndex="1" GridPane.rowIndex="2" GridPane.halignment="CENTER" />
+      <TextField fx:id="textfBenutzer" text="USERNAME" GridPane.columnIndex="1" />
+      <PasswordField fx:id="textfKennwort" text="" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+      <Label fx:id="labelBenutzer" text="SAP Konto" />
+      <Label text="Password" GridPane.rowIndex="1" />
+      <columnConstraints>
+         <ColumnConstraints />
+         <ColumnConstraints />
+      </columnConstraints>
+      <rowConstraints>
+         <RowConstraints />
+         <RowConstraints />
+         <RowConstraints />
+      </rowConstraints>
+   </GridPane>
+   <ImageView fitWidth="140" fitHeight="58" preserveRatio="true" StackPane.alignment="TOP_LEFT">
+      <image>
+         <Image url="@logo.png" />
+      </image>
+      <StackPane.margin>
+         <Insets top="14" left="20" />
+      </StackPane.margin>
+   </ImageView>
+</StackPane>

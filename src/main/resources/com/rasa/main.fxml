@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.rasa.fxHKontroller">
+    <Button mnemonicParsing="false" onAction="#onHochladenBtnClick" text="Upload!" GridPane.columnIndex="1" GridPane.rowIndex="2" GridPane.halignment="CENTER">
+        <GridPane.margin>
+            <Insets bottom="20" />
+        </GridPane.margin>
+    </Button>
+    <Button mnemonicParsing="false" onAction="#onOeffnenBtnClick" text="Select file..." GridPane.columnIndex="2" GridPane.rowIndex="1">
+        <GridPane.margin>
+            <Insets right="20" />
+        </GridPane.margin>
+    </Button>
+    <TextField fx:id="dateiPfad" prefWidth="380" text="C:\..." GridPane.columnIndex="1" GridPane.rowIndex="1" />
+    <Label fx:id="labelPfad" text="Path to .xlsx file" GridPane.rowIndex="1">
+        <GridPane.margin>
+            <Insets left="20" />
+        </GridPane.margin>
+    </Label>
+    <columnConstraints>
+        <ColumnConstraints />
+        <ColumnConstraints />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+    </rowConstraints>
+</GridPane>
