@@ -1,6 +1,8 @@
 # price_cond
 
-JavaFX-приложение для загрузки файла с ценами (`.xlsx`) в SAP OData (сервис `yrecord`).
+JavaFX-приложение для загрузки файла с ценами (`.xlsx`) в SAP (OData сервис `yrecord`).
+
+![gui](gui.gif)
 
 ## Стек
 
